@@ -58,24 +58,28 @@
           margin-bottom: 5rem;
           font-family: "Georgia", serif;
           color: #c9a227;
+          text-align: justify;
         }
 
         &--popular {
           margin-bottom: 5rem;
           font-family: "Impact", sans-serif;
           color: #ae0f17;
+          text-align: justify;
         }
 
         &--upcoming {
           margin-bottom: 5rem;
           font-family: "Lucida Sans", "Lucida Sans Regular", cursive;
           color: #ffffff;
+          text-align: justify;
         }
 
         &--recomendations {
           margin-bottom: 5rem;
           font-family: Georgia, Times, "Times New Roman", serif, cursive;
           color: #2d37ee;
+          text-align: justify;
         }
       }
     }
