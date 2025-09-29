@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+  z-index: 10;
+  text-decoration: none;
+
+  &__logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e50914;
+    text-decoration: none;
+
+    &:hover {
+      color: #e93a42;
+    }
+  }
+
+  &__nav {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav a {
+    margin-left: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: #aaa;
+    }
+  }
+}

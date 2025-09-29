@@ -1,0 +1,15 @@
+.film-detail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 4rem;
+
+  &__recomendations {
+    margin-left: 4rem;
+  }
+}
+
+.notFound {
+  margin: 4rem;
+  height: 60vh;
+}

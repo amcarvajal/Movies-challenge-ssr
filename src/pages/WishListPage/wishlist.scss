@@ -1,0 +1,28 @@
+.wishlist-container {
+  margin-top: 4rem;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__section {
+    margin: 0;
+
+    &__title {
+      margin-bottom: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 12rem;
+      margin-top: 2rem;
+
+      &img {
+        cursor: pointer !important;
+      }
+    }
+  }
+}
